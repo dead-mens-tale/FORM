@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- custom css link -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- font awesome cdn link -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<title>Form</title>
+</head>
+
+ <body>
+
+	<div class="wrapper">
+		<div class="form">
+			<!-- <header>Registration</header> -->
+			<form action="#" method="get" enctype="multipart/form-data">
+				<br>
+				<label for="first_name">First Name:</label><br>
+
+				<input type="text" placeholder="Type your first name" name="first_name" class="first_name" >
+				<i class="fas fa-user"></i>
+
+				<br><br>
+				<label for="last_name">Last Name:</label> <br>
+				<input type="text" placeholder="Type your last name" name="last_name" class="last_name" >
+				<i class="fas fa-user"></i>
+
+				<br><br>
+				<label for="email">Email Address:</label> <br>
+				<input type="email" placeholder="Type your email address" name="email" class="email" >
+				<i class="fas fa-envelope"></i>
+
+				<br><br>
+				<label for="password">Password:</label> <br>
+				<input type="password" placeholder="Type your password" name="password" class="password" >
+				<i class="fas fa-lock"></i>
+
+				<br><br>
+				<label for="gender">Gender</label><br><br>
+				<input type="radio" value="Male" name="gender" class="genders"><span>Male</span>
+				<input type="radio" value="Female" name="gender" class="genders"><span>Female</span>
+
+				<br><br>
+				<label for="">Educational Qualifications:</label><br><br>
+				<input type="Checkbox" value="icse" class="checkbox" name=""><span>A'LEVELS</span>
+				<input type="Checkbox" value="isc"  class="checkbox" name=""><span>ISC</span>
+
+				<br><br>
+				<label for="message">Your Message:</label><br><br>
+				<textarea name="" id="message" cols="44" rows="10" placeholder="Type your message here" class="message"></textarea>
+
+				<br><br>
+				<button type="submit" class="btn-click">Click Me</button>
+				<button type="reset" class="reset">Reset Form</button>
+				<br><br>
+			</form>
+
+		</div>
+	</div>
+ </body>
+</html>
